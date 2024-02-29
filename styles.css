@@ -124,7 +124,7 @@ hr {
     display: block;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 650px) {
     .desktop {
         display: none;
     }
