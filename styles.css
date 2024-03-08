@@ -115,8 +115,33 @@ hr {
 }
 
 .closed>.para-wrapper {
-    height: 0;
+    animation: closingAnimation 0.2s ease-out forwards;
     overflow: hidden;
+}
+
+@keyframes closingAnimation {
+    from {
+        max-height: 80px;
+    }
+
+    to {
+        max-height: 0;
+    }
+}
+
+.opened>.para-wrapper {
+    animation: openingAnimation 0.2s ease-in forwards;
+    overflow: hidden;
+}
+
+@keyframes openingAnimation {
+    from {
+        max-height: 0;
+    }
+
+    to {
+        max-height: 80px;
+    }
 }
 
 .mobile {
