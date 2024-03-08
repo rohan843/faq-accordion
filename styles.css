@@ -98,6 +98,10 @@ hr {
     overflow: hidden;
 }
 
+.remove-link-styles {
+    text-decoration: none;
+}
+
 .minus {
     margin-left: 24px;
 }
@@ -114,14 +118,14 @@ hr {
     display: none;
 }
 
-.closed>.para-wrapper {
-    animation: closingAnimation 0.2s ease-out forwards;
+/* .closed>.para-wrapper {
+    animation: closingAnimation 1s ease-out forwards;
     overflow: hidden;
 }
 
 @keyframes closingAnimation {
     from {
-        max-height: 80px;
+        max-height: 8000px;
     }
 
     to {
@@ -130,7 +134,7 @@ hr {
 }
 
 .opened>.para-wrapper {
-    animation: openingAnimation 0.2s ease-in forwards;
+    animation: openingAnimation 2s ease-in forwards;
     overflow: hidden;
 }
 
@@ -140,9 +144,9 @@ hr {
     }
 
     to {
-        max-height: 80px;
+        max-height: 8000px;
     }
-}
+} */
 
 .mobile {
     display: none;
