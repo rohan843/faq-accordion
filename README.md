@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/animated-faq-accordion-with-animated-dropdowns-Rn906Zc9dZ)
 - Live Site URL: [FAQ accordion | Frontend Mentor](https://rohan843-faq-accordion.netlify.app/)
 
 ## My process
